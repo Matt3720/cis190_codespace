@@ -1,2 +1,6 @@
 1. Answer: cd /data/aircraft/configurations/mq-9
-2. Answer: 
+2. Answer: cd xq-67a
+3. Answer: mv n345qr.cfg mq-1c
+4. Answer: mv n678st.cfg mojave
+5. Answer: cp -rb configurations aircraft
+6. Answer: 
