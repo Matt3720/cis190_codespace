@@ -1,0 +1,2 @@
+1. Answer: cd /data/aircraft/configurations/mq-9
+2. Answer: 
