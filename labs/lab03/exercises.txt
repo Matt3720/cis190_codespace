@@ -2,5 +2,19 @@
 2. Answer: cd xq-67a
 3. Answer: mv n345qr.cfg mq-1c
 4. Answer: mv n678st.cfg mojave
-5. Answer: cp -rb configurations aircraft
-6. Answer: 
+5. Answer: cp -rb configurations backup
+6. Answer: 1093335 index.cfg  1093333 n234ij.cfg  1093334 n567kl.cdf 
+7. Answer: Directory not empty
+8. Answer: mkdir locations
+9. Answer: ln -s /data/aircraft/configurations/mq-9 mq-9      ln -s /data/aircraft/configurations/xq-67a xq-67a      ln -s /data/aircraft/configurations/mq-1c mq-1c
+10. Answer: cd configurations/mojave
+11. Answer: cp -r n112op.cfg /data/aircraft/backup
+12. Answer: ls -Rsh
+13. Answer: mv mq-9/n890mn.cfg mq-20
+14. Answer: ln -s /data/aircraft/configurations/mq-1c/n101gh.cfg n101gh.cfg
+15. Answer: cd /data/aircraft/configurations/mq-1c/
+16. Answer: rm xq-67a
+17. Answer: touch n567kl.cfg
+18. Answer: ls -ks configurations/
+19. Answer: mkdir test    rmdir test
+20. Answer: mv index.cfg main.cfg
