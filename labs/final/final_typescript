@@ -1,0 +1,824 @@
+Script started on 2024-08-12 04:37:13+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="38"]
+[0;32m@Matt3720 [0m➜ [1;34m/workspaces/cis190_codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ wget https://boss.vvc.edu/tonning/classes/cis190/resources/final_configs.tgz
+--2024-08-12 04:37:38--  https://boss.vvc.edu/tonning/classes/cis190/resources/final_configs.tgz
+Resolving boss.vvc.edu (boss.vvc.edu)... 207.233.102.33
+Connecting to boss.vvc.edu (boss.vvc.edu)|207.233.102.33|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 12435 (12K) [application/octet-stream]
+Saving to: ‘final_configs.tgz’
+
+final_configs.tgz     0%[                    ]       0  --.-KB/s               final_configs.tgz   100%[===================>]  12.14K  --.-KB/s    in 0.01s   
+
+2024-08-12 04:37:38 (1.01 MB/s) - ‘final_configs.tgz’ saved [12435/12435]
+
+[0;32m@Matt3720 [0m➜ [1;34m/workspaces/cis190_codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ ls
+[0m[01;31mfinal_configs.tgz[0m  final_typescript
+[0;32m@Matt3720 [0m➜ [1;34m/workspaces/cis190_codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ tar -xvf final_configs.tgz 
+configs/
+configs/n112op/
+configs/n112op/config_3.ini
+configs/n112op/config_5.ini
+configs/n112op/config_1.ini
+configs/n112op/config_2.ini
+configs/n112op/config_4.ini
+configs/n890mn/
+configs/n890mn/config_3.ini
+configs/n890mn/config_5.ini
+configs/n890mn/config_1.ini
+configs/n890mn/config_2.ini
+configs/n890mn/config_4.ini
+configs/n101gh/
+configs/n101gh/config_3.ini
+configs/n101gh/config_5.ini
+configs/n101gh/config_1.ini
+configs/n101gh/config_1a.ini
+configs/n101gh/config_2.ini
+configs/n101gh/config_4.ini
+configs/n678st/
+configs/n678st/config_3.ini
+configs/n678st/config_5.ini
+configs/n678st/config_1.ini
+configs/n678st/config_2.ini
+configs/n678st/config_4.ini
+configs/n567kl/
+configs/n567kl/config_3.ini
+configs/n567kl/config_5.ini
+configs/n567kl/config_1.ini
+configs/n567kl/config_2.ini
+configs/n567kl/config_4.ini
+configs/tailnumbers.txt
+configs/n789ef/
+configs/n789ef/config_3.ini
+configs/n789ef/config_5.ini
+configs/n789ef/config_1.ini
+configs/n789ef/config_2.ini
+configs/n789ef/config_4.ini
+configs/n456cd/
+configs/n456cd/config_3.ini
+configs/n456cd/config_5.ini
+configs/n456cd/config_1.ini
+configs/n456cd/config_2.ini
+configs/n456cd/config_4.ini
+configs/n123ab/
+configs/n123ab/config_3.ini
+configs/n123ab/config_5.ini
+configs/n123ab/config_1.ini
+configs/n123ab/config_2.ini
+configs/n123ab/config_4.ini
+configs/n234ij/
+configs/n234ij/config_3.ini
+configs/n234ij/config_5.ini
+configs/n234ij/config_1.ini
+configs/n234ij/config_2.ini
+configs/n234ij/config_4.ini
+configs/n223wx/
+configs/n223wx/config_3.ini
+configs/n223wx/config_5.ini
+configs/n223wx/config_1.ini
+configs/n223wx/config_2.ini
+configs/n223wx/config_4.ini
+[0;32m@Matt3720 [0m➜ [1;34m/workspaces/cis190_codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ ls
+[0m[01;34mconfigs[0m  [01;31mfinal_configs.tgz[0m  final_typescript
+[0;32m@Matt3720 [0m➜ [1;34m/workspaces/cis190_codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ mkdir data/air[K[K[K[K
+[0;32m@Matt3720 [0m➜ [1;34m/workspaces/cis190_codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ cd data/
+[0;32m@Matt3720 [0m➜ [1;34m.../cis190_codespace/labs/final/data [0;36m([1;31mmain[0;36m) [0m$ mkdir aircraft
+[0;32m@Matt3720 [0m➜ [1;34m.../cis190_codespace/labs/final/data [0;36m([1;31mmain[0;36m) [0m$ ls
+[0m[34;42maircraft[0m
+[0;32m@Matt3720 [0m➜ [1;34m.../cis190_codespace/labs/final/data [0;36m([1;31mmain[0;36m) [0m$ cd ..
+[0;32m@Matt3720 [0m➜ [1;34m/workspaces/cis190_codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ ls
+[0m[01;34mconfigs[0m  [34;42mdata[0m  [01;31mfinal_configs.tgz[0m  final_typescript
+[0;32m@Matt3720 [0m➜ [1;34m/workspaces/cis190_codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ mv configs/[K data/aircraft/
+[0;32m@Matt3720 [0m➜ [1;34m/workspaces/cis190_codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ cd data/aircraft/configs/n123av
+bash: cd: data/aircraft/configs/n123av: No such file or directory
+[0;32m@Matt3720 [1;31m➜ [1;34m/workspaces/cis190_codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ cd data/aircraft/configs/n123av[K[K[K[K[K[K[K
+[0;32m@Matt3720 [0m➜ [1;34m.../final/data/aircraft/configs [0;36m([1;31mmain[0;36m) [0m$ ls
+[0m[01;34mn101gh[0m  [01;34mn123ab[0m  [01;34mn234ij[0m  [01;34mn567kl[0m  [01;34mn789ef[0m  tailnumbers.txt
+[01;34mn112op[0m  [01;34mn223wx[0m  [01;34mn456cd[0m  [01;34mn678st[0m  [01;34mn890mn[0m
+[0;32m@Matt3720 [0m➜ [1;34m.../final/data/aircraft/configs [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@Matt3720 [0m➜ [1;34m.../final/data/aircraft/configs [0;36m([1;31mmain[0;36m) [0m$ more config[K[K[K[K[K[K[K[K[K[K[Kmore[K[K[K[Kmore [K config0-[K[K-[K_1.ini
+more: stat of config_1.ini failed: No such file or directory
+[0;32m@Matt3720 [0m➜ [1;34m.../final/data/aircraft/configs [0;36m([1;31mmain[0;36m) [0m$ cd n123av
+bash: cd: n123av: No such file or directory
+[0;32m@Matt3720 [1;31m➜ [1;34m.../final/data/aircraft/configs [0;36m([1;31mmain[0;36m) [0m$ cd n123av[C[Kb
+[0;32m@Matt3720 [0m➜ [1;34m.../data/aircraft/configs/n123ab [0;36m([1;31mmain[0;36m) [0m$ ls
+config_1.ini  config_2.ini  config_3.ini  config_4.ini  config_5.ini
+[0;32m@Matt3720 [0m➜ [1;34m.../data/aircraft/configs/n123ab [0;36m([1;31mmain[0;36m) [0m$ more config_1.ini
+[mission]
+mission_id = MISS-8692
+objective = Mapping
+start_time = 20:15
+duration_minutes = 360
+
+[drone]
+tail_number = n123ab
+max_altitude = 10000
+max_speed = 300
+payload_capacity = 625
+
+[camera]
+resolution = 720p
+frame_rate = 30
+infrared = False
+lidar = True
+
+[communication]
+frequency = 5.77
+encryption = AES-128
+
+[logging]
+log_level = ERROR
+log_file = /data/logs/n123ab-MISS-8692.log
+
+[waypoints]
+waypoint_1 = -7.94085, 71.927998, 418
+waypoint_2 = -25.047837, -64.252971, 1038
+waypoint_3 = 19.013184, -96.396127, 1269
+waypoint_4 = 3.231508, -177.37585, 108
+waypoint_5 = -54.309493, -88.692402, 855
+waypoint_6 = 44.736732, 173.595894, 363
+waypoint_7 = -37.46829, -70.535238, 114
+waypoint_8 = 34.357269, 176.244412, 1701
+waypoint_9 = -68.980644, -162.020635, 1500
+waypoint_10 = -66.547623, -139.624019, 1760
+[7m--More--(99%)[27m[K[0;32m@Matt3720 [0m➜ [1;34m.../data/aircraft/configs/n123ab [0;36m([1;31mmain[0;36m) [0m$ sed -i /[K's/max_altitude =  10000/max [K_altitude -[K= 30000[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/;[K:[K' config_1.ini
+[0;32m@Matt3720 [0m➜ [1;34m.../data/aircraft/configs/n123ab [0;36m([1;31mmain[0;36m) [0m$ more config_1.ini
+[mission]
+mission_id = MISS-8692
+objective = Mapping
+start_time = 20:15
+duration_minutes = 360
+
+[drone]
+tail_number = n123ab
+max_altitude = 30000
+max_speed = 300
+payload_capacity = 625
+
+[camera]
+resolution = 720p
+frame_rate = 30
+infrared = False
+lidar = True
+
+[communication]
+frequency = 5.77
+encryption = AES-128
+
+[logging]
+log_level = ERROR
+log_file = /data/logs/n123ab-MISS-8692.log
+
+[waypoints]
+waypoint_1 = -7.94085, 71.927998, 418
+waypoint_2 = -25.047837, -64.252971, 1038
+waypoint_3 = 19.013184, -96.396127, 1269
+waypoint_4 = 3.231508, -177.37585, 108
+waypoint_5 = -54.309493, -88.692402, 855
+waypoint_6 = 44.736732, 173.595894, 363
+waypoint_7 = -37.46829, -70.535238, 114
+waypoint_8 = 34.357269, 176.244412, 1701
+waypoint_9 = -68.980644, -162.020635, 1500
+waypoint_10 = -66.547623, -139.624019, 1760
+[7m--More--(99%)[27m[K[0;32m@Matt3720 [0m➜ [1;34m.../data/aircraft/configs/n123ab [0;36m([1;31mmain[0;36m) [0m$ config [K[K[K[K[K[K[Kmore congi[K[Kfig_2.ini
+[mission]
+mission_id = MISS-4879
+objective = Engagement
+start_time = 02:45
+duration_minutes = 90
+
+[drone]
+tail_number = n123ab
+max_altitude = 50000
+max_speed = 250
+payload_capacity = 600
+
+[camera]
+resolution = 1080p
+frame_rate = 24
+infrared = True
+lidar = True
+
+[communication]
+frequency = 2.9
+encryption = None
+
+[logging]
+log_level = DEBUG
+log_file = /data/logs/n123ab-MISS-4879.log
+
+[waypoints]
+waypoint_1 = 23.695311, 8.488492, 1162
+waypoint_2 = -22.370626, 2.288185, 1719
+waypoint_3 = -60.876411, -16.316544, 628
+waypoint_4 = -73.466589, 120.994067, 879
+waypoint_5 = 76.749445, 113.738315, 1912
+waypoint_6 = -39.829873, 33.826342, 1586
+waypoint_7 = 62.622789, 42.665519, 1879
+waypoint_8 = -64.629633, 84.920533, 1069
+waypoint_9 = 9.453238, -145.110354, 211
+waypoint_10 = 81.20267, 139.251564, 1161
+[7m--More--(99%)[27m[K[0;32m@Matt3720 [0m➜ [1;34m.../data/aircraft/configs/n123ab [0;36m([1;31mmain[0;36m) [0m$ sed -i ;[K's/max_altitude =  = 50000[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K=  50000 [K/max_altitude = 30000/' config_2.ini
+[0;32m@Matt3720 [0m➜ [1;34m.../data/aircraft/configs/n123ab [0;36m([1;31mmain[0;36m) [0m$ more config_2.ini
+[mission]
+mission_id = MISS-4879
+objective = Engagement
+start_time = 02:45
+duration_minutes = 90
+
+[drone]
+tail_number = n123ab
+max_altitude = 30000
+max_speed = 250
+payload_capacity = 600
+
+[camera]
+resolution = 1080p
+frame_rate = 24
+infrared = True
+lidar = True
+
+[communication]
+frequency = 2.9
+encryption = None
+
+[logging]
+log_level = DEBUG
+log_file = /data/logs/n123ab-MISS-4879.log
+
+[waypoints]
+waypoint_1 = 23.695311, 8.488492, 1162
+waypoint_2 = -22.370626, 2.288185, 1719
+waypoint_3 = -60.876411, -16.316544, 628
+waypoint_4 = -73.466589, 120.994067, 879
+waypoint_5 = 76.749445, 113.738315, 1912
+waypoint_6 = -39.829873, 33.826342, 1586
+waypoint_7 = 62.622789, 42.665519, 1879
+waypoint_8 = -64.629633, 84.920533, 1069
+waypoint_9 = 9.453238, -145.110354, 211
+waypoint_10 = 81.20267, 139.251564, 1161
+[7m--More--(99%)[27m[K[0;32m@Matt3720 [0m➜ [1;34m.../data/aircraft/configs/n123ab [0;36m([1;31mmain[0;36m) [0m$ more config [K_3.ini
+[mission]
+mission_id = MISS-4901
+objective = Delivery
+start_time = 17:30
+duration_minutes = 120
+
+[drone]
+tail_number = n123ab
+max_altitude = 35000
+max_speed = 250
+payload_capacity = 700
+
+[camera]
+resolution = 1080p
+frame_rate = 24
+infrared = True
+lidar = False
+
+[communication]
+frequency = 5.18
+encryption = AES-256
+
+[logging]
+log_level = ERROR
+log_file = /data/logs/n123ab-MISS-4901.log
+
+[waypoints]
+waypoint_1 = -34.760137, 1.853969, 244
+waypoint_2 = 15.502031, 93.221997, 1813
+waypoint_3 = 42.621715, 7.335771, 1396
+waypoint_4 = 71.632636, -101.032309, 1479
+waypoint_5 = 85.553904, 81.119861, 620
+waypoint_6 = -47.409775, -115.736535, 996
+waypoint_7 = 44.387758, 74.291912, 1724
+waypoint_8 = -84.916736, -71.129553, 1045
+waypoint_9 = 84.638587, 154.381035, 1688
+waypoint_10 = 55.323739, -160.917301, 1267
+[7m--More--(99%)[27m[K[0;32m@Matt3720 [0m➜ [1;34m.../data/aircraft/configs/n123ab [0;36m([1;31mmain[0;36m) [0m$ sed -i /[K'/[Ks/max_altitude =  35000/max_altitude = 30000/' config_3.ini
+[0;32m@Matt3720 [0m➜ [1;34m.../data/aircraft/configs/n123ab [0;36m([1;31mmain[0;36m) [0m$ co[K[Kmore config_3.ini
+[mission]
+mission_id = MISS-4901
+objective = Delivery
+start_time = 17:30
+duration_minutes = 120
+
+[drone]
+tail_number = n123ab
+max_altitude = 30000
+max_speed = 250
+payload_capacity = 700
+
+[camera]
+resolution = 1080p
+frame_rate = 24
+infrared = True
+lidar = False
+
+[communication]
+frequency = 5.18
+encryption = AES-256
+
+[logging]
+log_level = ERROR
+log_file = /data/logs/n123ab-MISS-4901.log
+
+[waypoints]
+waypoint_1 = -34.760137, 1.853969, 244
+waypoint_2 = 15.502031, 93.221997, 1813
+waypoint_3 = 42.621715, 7.335771, 1396
+waypoint_4 = 71.632636, -101.032309, 1479
+waypoint_5 = 85.553904, 81.119861, 620
+waypoint_6 = -47.409775, -115.736535, 996
+waypoint_7 = 44.387758, 74.291912, 1724
+waypoint_8 = -84.916736, -71.129553, 1045
+waypoint_9 = 84.638587, 154.381035, 1688
+waypoint_10 = 55.323739, -160.917301, 1267
+[7m--More--(99%)[27m[K[0;32m@Matt3720 [0m➜ [1;34m.../data/aircraft/configs/n123ab [0;36m([1;31mmain[0;36m) [0m$ ls
+config_1.ini  config_2.ini  config_3.ini  config_4.ini  config_5.ini
+[0;32m@Matt3720 [0m➜ [1;34m.../data/aircraft/configs/n123ab [0;36m([1;31mmain[0;36m) [0m$ more config_4.ini
+[mission]
+mission_id = MISS-2856
+objective = Mapping
+start_time = 22:30
+duration_minutes = 90
+
+[drone]
+tail_number = n123ab
+max_altitude = 35000
+max_speed = 250
+payload_capacity = 475
+
+[camera]
+resolution = 4K
+frame_rate = 30
+infrared = True
+lidar = True
+
+[communication]
+frequency = 4.88
+encryption = AES-256
+
+[logging]
+log_level = DEBUG
+log_file = /data/logs/n123ab-MISS-2856.log
+
+[waypoints]
+waypoint_1 = 77.088781, 94.131458, 157
+waypoint_2 = -75.532994, -102.046755, 1917
+waypoint_3 = -44.476098, -77.716091, 810
+waypoint_4 = 47.649224, -121.459297, 739
+waypoint_5 = 64.736373, 0.133086, 1205
+waypoint_6 = -71.085248, -42.863777, 1704
+waypoint_7 = 48.426382, 151.583432, 691
+waypoint_8 = 61.817694, -153.150876, 1286
+waypoint_9 = -56.154916, -142.908445, 731
+waypoint_10 = -38.809603, -7.321311, 708
+[7m--More--(99%)[27m[K[0;32m@Matt3720 [0m➜ [1;34m.../data/aircraft/configs/n123ab [0;36m([1;31mmain[0;36m) [0m$ sed -i /[K's/max_altitude =  35000/max_altitude = 30000/:[K;[K' config_4.ini
+[0;32m@Matt3720 [0m➜ [1;34m.../data/aircraft/configs/n123ab [0;36m([1;31mmain[0;36m) [0m$ sed -i 's/max_altitude = 35000/max_altitude = 30000/' config_4.ini[A[0;32m@Matt3720 [0m➜ [1;34m.../data/aircraft/configs/n123ab [0;36m([1;31mmain[0;36m) [0m$ [8Pmore config_4.ini
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[mission]
+mission_id = MISS-2856
+objective = Mapping
+start_time = 22:30
+duration_minutes = 90
+
+[drone]
+tail_number = n123ab
+max_altitude = 30000
+max_speed = 250
+payload_capacity = 475
+
+[camera]
+resolution = 4K
+frame_rate = 30
+infrared = True
+lidar = True
+
+[communication]
+frequency = 4.88
+encryption = AES-256
+
+[logging]
+log_level = DEBUG
+log_file = /data/logs/n123ab-MISS-2856.log
+
+[waypoints]
+waypoint_1 = 77.088781, 94.131458, 157
+waypoint_2 = -75.532994, -102.046755, 1917
+waypoint_3 = -44.476098, -77.716091, 810
+waypoint_4 = 47.649224, -121.459297, 739
+waypoint_5 = 64.736373, 0.133086, 1205
+waypoint_6 = -71.085248, -42.863777, 1704
+waypoint_7 = 48.426382, 151.583432, 691
+waypoint_8 = 61.817694, -153.150876, 1286
+waypoint_9 = -56.154916, -142.908445, 731
+waypoint_10 = -38.809603, -7.321311, 708
+[7m--More--(99%)[27m[K[0;32m@Matt3720 [0m➜ [1;34m.../data/aircraft/configs/n123ab [0;36m([1;31mmain[0;36m) [0m$ more config_4.inised -i 's/max_altitude = 35000/max_altitude = 30000/' config_4.ini[A[0;32m@Matt3720 [0m➜ [1;34m.../data/aircraft/configs/n123ab [0;36m([1;31mmain[0;36m) [0m$ [8Pmore config_4.ini
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P.ini5.ini
+[mission]
+mission_id = MISS-8637
+objective = Engagement
+start_time = 06:00
+duration_minutes = 180
+
+[drone]
+tail_number = n123ab
+max_altitude = 15000
+max_speed = 300
+payload_capacity = 625
+
+[camera]
+resolution = 720p
+frame_rate = 30
+infrared = True
+lidar = False
+
+[communication]
+frequency = 4.71
+encryption = None
+
+[logging]
+log_level = DEBUG
+log_file = /data/logs/n123ab-MISS-8637.log
+
+[waypoints]
+waypoint_1 = -87.99274, 104.162158, 1668
+waypoint_2 = -13.311878, -84.779037, 1958
+waypoint_3 = 60.95737, 161.862808, 1269
+waypoint_4 = 4.586076, 146.240605, 1213
+waypoint_5 = 89.286738, 166.835195, 596
+waypoint_6 = 59.733724, -37.324704, 1136
+waypoint_7 = -72.777202, -150.320335, 819
+waypoint_8 = -84.909701, 166.335245, 362
+waypoint_9 = -3.985176, -132.105555, 813
+waypoint_10 = 68.599431, 53.540754, 473
+[7m--More--(99%)[27m[K[0;32m@Matt3720 [0m➜ [1;34m.../data/aircraft/configs/n123ab [0;36m([1;31mmain[0;36m) [0m$ more config_5.ini4.inised -i 's/max_altitude = 35000/max_altitude = 30000/' config_4.ini[1P[1@1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P.ini5.ini
+[0;32m@Matt3720 [0m➜ [1;34m.../data/aircraft/configs/n123ab [0;36m([1;31mmain[0;36m) [0m$ ls[K[Ksed -i 's/max_altitude = 15000/max_altitude = 30000/' config_5.ini[A[0;32m@Matt3720 [0m➜ [1;34m.../data/aircraft/configs/n123ab [0;36m([1;31mmain[0;36m) [0m$ [8Pmore config_5.ini
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[mission]
+mission_id = MISS-8637
+objective = Engagement
+start_time = 06:00
+duration_minutes = 180
+
+[drone]
+tail_number = n123ab
+max_altitude = 30000
+max_speed = 300
+payload_capacity = 625
+
+[camera]
+resolution = 720p
+frame_rate = 30
+infrared = True
+lidar = False
+
+[communication]
+frequency = 4.71
+encryption = None
+
+[logging]
+log_level = DEBUG
+log_file = /data/logs/n123ab-MISS-8637.log
+
+[waypoints]
+waypoint_1 = -87.99274, 104.162158, 1668
+waypoint_2 = -13.311878, -84.779037, 1958
+waypoint_3 = 60.95737, 161.862808, 1269
+waypoint_4 = 4.586076, 146.240605, 1213
+waypoint_5 = 89.286738, 166.835195, 596
+waypoint_6 = 59.733724, -37.324704, 1136
+waypoint_7 = -72.777202, -150.320335, 819
+waypoint_8 = -84.909701, 166.335245, 362
+waypoint_9 = -3.985176, -132.105555, 813
+waypoint_10 = 68.599431, 53.540754, 473
+[7m--More--(99%)[27m[K[0;32m@Matt3720 [0m➜ [1;34m.../data/aircraft/configs/n123ab [0;36m([1;31mmain[0;36m) [0m$ q[Kls
+config_1.ini  config_2.ini  config_3.ini  config_4.ini  config_5.ini
+[0;32m@Matt3720 [0m➜ [1;34m.../data/aircraft/configs/n123ab [0;36m([1;31mmain[0;36m) [0m$ cd ../../..
+[0;32m@Matt3720 [0m➜ [1;34m.../cis190_codespace/labs/final/data [0;36m([1;31mmain[0;36m) [0m$  [Kcd ..
+[0;32m@Matt3720 [0m➜ [1;34m/workspaces/cis190_codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ wget https://boss.vvc.edu/tonning/classes/cis190/resources/final_logs.tgz
+--2024-08-12 04:50:08--  https://boss.vvc.edu/tonning/classes/cis190/resources/final_logs.tgz
+Resolving boss.vvc.edu (boss.vvc.edu)... 207.233.102.33
+Connecting to boss.vvc.edu (boss.vvc.edu)|207.233.102.33|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 10561 (10K) [application/octet-stream]
+Saving to: ‘final_logs.tgz’
+
+final_logs.tgz        0%[                   ]       0  --.-KB/s               final_logs.tgz      100%[==================>]  10.31K  --.-KB/s    in 0s      
+
+2024-08-12 04:50:08 (75.2 MB/s) - ‘final_logs.tgz’ saved [10561/10561]
+
+[0;32m@Matt3720 [0m➜ [1;34m/workspaces/cis190_codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ ls
+[0m[34;42mdata[0m  [01;31mfinal_configs.tgz[0m  [01;31mfinal_logs.tgz[0m  final_typescript
+[0;32m@Matt3720 [0m➜ [1;34m/workspaces/cis190_codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ tar -xvf final_logs.tgz | mv logs data/aircraft/
+mv: cannot stat 'logs': No such file or directory
+[0;32m@Matt3720 [1;31m➜ [1;34m/workspaces/cis190_codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ ls
+[0m[34;42mdata[0m  [01;31mfinal_configs.tgz[0m  [01;31mfinal_logs.tgz[0m  final_typescript
+[0;32m@Matt3720 [0m➜ [1;34m/workspaces/cis190_codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ lstar -xvf final_logs.tgz | mv logs data/aircraft/[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+logs/
+logs/n101gh_telemetry.log
+logs/n123ab_telemetry.log
+logs/n567kl_telemetry.log
+logs/n112op_telemetry.log
+logs/n456cd_telemetry.log
+logs/n890mn_telemetry.log
+logs/n234ij_telemetry.log
+logs/n789ef_telemetry.log
+logs/n223wx_telemetry.log
+logs/n678st_telemetry.log
+[0;32m@Matt3720 [0m➜ [1;34m/workspaces/cis190_codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ ls
+[0m[34;42mdata[0m  [01;31mfinal_configs.tgz[0m  [01;31mfinal_logs.tgz[0m  final_typescript  [01;34mlogs[0m
+[0;32m@Matt3720 [0m➜ [1;34m/workspaces/cis190_codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ mv logs data/aircraft/
+[0;32m@Matt3720 [0m➜ [1;34m/workspaces/cis190_codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ ls data/aircraft/
+[0m[01;34mconfigs[0m  [01;34mlogs[0m
+[0;32m@Matt3720 [0m➜ [1;34m/workspaces/cis190_codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ cd[K[Kcd data/aircraft/
+[0;32m@Matt3720 [0m➜ [1;34m.../labs/final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ ls
+[0m[01;34mconfigs[0m  [01;34mlogs[0m
+[0;32m@Matt3720 [0m➜ [1;34m.../labs/final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ grep 'GPS' data/** > gps_summ ary.txt
+grep: data/**: No such file or directory
+[0;32m@Matt3720 [1;31m➜ [1;34m.../labs/final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ grep 'GPS' data/** > gps_summary.txt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/** > gps_summar[1Py.txt[A[0;32m@Matt3720 [1;31m➜ [1;34m.../labs/final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C/** > gps_summary[1P.txt[A[0;32m@Matt3720 [1;31m➜ [1;34m.../labs/final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C/** > gps_summary.[1Ptxt[A[0;32m@Matt3720 [1;31m➜ [1;34m.../labs/final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C/** > gps_summary.t[1Pxt[A[0;32m@Matt3720 [1;31m➜ [1;34m.../labs/final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[Cl/** > gps_summary.txt[A[0;32m@Matt3720 [1;31m➜ [1;34m.../labs/final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[Co/** > gps_summary.txt[A[0;32m@Matt3720 [1;31m➜ [1;34m.../labs/final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[Cg/** > gps_summary.txt[A[0;32m@Matt3720 [1;31m➜ [1;34m.../labs/final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[Cd/** > gps_summary.txt[A[0;32m@Matt3720 [1;31m➜ [1;34m.../labs/final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/** > gps_summar[1Py.txt[A[0;32m@Matt3720 [1;31m➜ [1;34m.../labs/final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[Cs/** > gps_summary.txt[A[0;32m@Matt3720 [1;31m➜ [1;34m.../labs/final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+[0;32m@Matt3720 [0m➜ [1;34m.../labs/final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ ls
+[0m[01;34mconfigs[0m  gps_summary.txt  [01;34mlogs[0m
+[0;32m@Matt3720 [0m➜ [1;34m.../labs/final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ l[Kless gps_summary.txt 
+[?1049h[22;0;0t[?1h=logs/n101gh_telemetry.log:[2024-06-26 14:33:10] GPS: Latitude: 34.0524, Longitu de: -118.2435
+logs/n101gh_telemetry.log:[2024-06-26 14:34:10] GPS: Latitude: 34.0526, Longitu de: -118.2433
+logs/n101gh_telemetry.log:[2024-06-26 14:35:10] GPS: Latitude: 34.0528, Longitu de: -118.2430
+logs/n101gh_telemetry.log:[2024-06-26 14:36:10] GPS: Latitude: 34.0531, Longitu de: -118.2426
+logs/n101gh_telemetry.log:[2024-06-26 14:37:10] GPS: Latitude: 34.0533, Longitu de: -118.2424
+logs/n101gh_telemetry.log:[2024-06-26 14:38:10] GPS: Latitude: 34.0537, Longitu de: -118.2423
+logs/n101gh_telemetry.log:[2024-06-26 14:39:10] GPS: Latitude: 34.0542, Longitu de: -118.2420
+logs/n101gh_telemetry.log:[2024-06-26 14:40:10] GPS: Latitude: 34.0544, Longitu de: -118.2419
+logs/n101gh_telemetry.log:[2024-06-26 14:41:10] GPS: Latitude: 34.0546, Longitu de: -118.2417
+logs/n101gh_telemetry.log:[2024-06-26 14:42:10] GPS: Latitude: 34.0548, Longitu de: -118.2413
+logs/n101gh_telemetry.log:[2024-06-26 14:43:10] GPS: Latitude: 34.0552, Longitu de: -118.2410
+logs/n101gh_telemetry.log:[2024-06-26 14:44:10] GPS: Latitude: 34.0554, Longitu de: -118.2406
+logs/n101gh_telemetry.log:[2024-06-26 14:45:10] GPS: Latitude: 34.0558, Longitu de: -118.2405
+logs/n101gh_telemetry.log:[2024-06-26 14:46:10] GPS: Latitude: 34.0563, Longitu de: -118.2401
+logs/n101gh_telemetry.log:[2024-06-26 14:47:10] GPS: Latitude: 34.0567, Longitu de: -118.2399
+logs/n101gh_telemetry.log:[2024-06-26 14:48:10] GPS: Latitude: 34.0569, Longitu de: -118.2398
+logs/n101gh_telemetry.log:[2024-06-26 14:49:10] GPS: Latitude: 34.0572, Longitu de: -118.2393
+logs/n101gh_telemetry.log:[2024-06-26 14:50:10] GPS: Latitude: 34.0575, Longitu de: -118.2390
+logs/n101gh_telemetry.log:[2024-06-26 14:51:10] GPS: Latitude: 34.0577, Longitu [7mgps_summary.txt[27m[K[K[?1l>[?1049l[23;0;0t[0;32m@Matt3720 [0m➜ [1;34m.../labs/final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ grep 'BAT' logs/** > battery_ summary.txt
+[0;32m@Matt3720 [0m➜ [1;34m.../labs/final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ ls
+battery_summary.txt  [0m[01;34mconfigs[0m  gps_summary.txt  [01;34mlogs[0m
+[0;32m@Matt3720 [0m➜ [1;34m.../labs/final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ cd ../..
+[0;32m@Matt3720 [0m➜ [1;34m/workspaces/cis190_codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ ls\[K
+[0m[34;42mdata[0m  [01;31mfinal_configs.tgz[0m  [01;31mfinal_logs.tgz[0m  final_typescript
+[0;32m@Matt3720 [0m➜ [1;34m/workspaces/cis190_codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ tar -czvf backup.t gz data
+data/
+data/aircraft/
+data/aircraft/gps_summary.txt
+data/aircraft/logs/
+data/aircraft/logs/n101gh_telemetry.log
+data/aircraft/logs/n123ab_telemetry.log
+data/aircraft/logs/n456cd_telemetry.log
+data/aircraft/logs/n223wx_telemetry.log
+data/aircraft/logs/n678st_telemetry.log
+data/aircraft/logs/n112op_telemetry.log
+data/aircraft/logs/n890mn_telemetry.log
+data/aircraft/logs/n234ij_telemetry.log
+data/aircraft/logs/n567kl_telemetry.log
+data/aircraft/logs/n789ef_telemetry.log
+data/aircraft/configs/
+data/aircraft/configs/n234ij/
+data/aircraft/configs/n234ij/config_1.ini
+data/aircraft/configs/n234ij/config_3.ini
+data/aircraft/configs/n234ij/config_2.ini
+data/aircraft/configs/n234ij/config_5.ini
+data/aircraft/configs/n234ij/config_4.ini
+data/aircraft/configs/n567kl/
+data/aircraft/configs/n567kl/config_1.ini
+data/aircraft/configs/n567kl/config_3.ini
+data/aircraft/configs/n567kl/config_2.ini
+data/aircraft/configs/n567kl/config_5.ini
+data/aircraft/configs/n567kl/config_4.ini
+data/aircraft/configs/tailnumbers.txt
+data/aircraft/configs/n123ab/
+data/aircraft/configs/n123ab/config_1.ini
+data/aircraft/configs/n123ab/config_3.ini
+data/aircraft/configs/n123ab/config_2.ini
+data/aircraft/configs/n123ab/config_5.ini
+data/aircraft/configs/n123ab/config_4.ini
+data/aircraft/configs/n101gh/
+data/aircraft/configs/n101gh/config_1a.ini
+data/aircraft/configs/n101gh/config_1.ini
+data/aircraft/configs/n101gh/config_3.ini
+data/aircraft/configs/n101gh/config_2.ini
+data/aircraft/configs/n101gh/config_5.ini
+data/aircraft/configs/n101gh/config_4.ini
+data/aircraft/configs/n456cd/
+data/aircraft/configs/n456cd/config_1.ini
+data/aircraft/configs/n456cd/config_3.ini
+data/aircraft/configs/n456cd/config_2.ini
+data/aircraft/configs/n456cd/config_5.ini
+data/aircraft/configs/n456cd/config_4.ini
+data/aircraft/configs/n890mn/
+data/aircraft/configs/n890mn/config_1.ini
+data/aircraft/configs/n890mn/config_3.ini
+data/aircraft/configs/n890mn/config_2.ini
+data/aircraft/configs/n890mn/config_5.ini
+data/aircraft/configs/n890mn/config_4.ini
+data/aircraft/configs/n678st/
+data/aircraft/configs/n678st/config_1.ini
+data/aircraft/configs/n678st/config_3.ini
+data/aircraft/configs/n678st/config_2.ini
+data/aircraft/configs/n678st/config_5.ini
+data/aircraft/configs/n678st/config_4.ini
+data/aircraft/configs/n789ef/
+data/aircraft/configs/n789ef/config_1.ini
+data/aircraft/configs/n789ef/config_3.ini
+data/aircraft/configs/n789ef/config_2.ini
+data/aircraft/configs/n789ef/config_5.ini
+data/aircraft/configs/n789ef/config_4.ini
+data/aircraft/configs/n112op/
+data/aircraft/configs/n112op/config_1.ini
+data/aircraft/configs/n112op/config_3.ini
+data/aircraft/configs/n112op/config_2.ini
+data/aircraft/configs/n112op/config_5.ini
+data/aircraft/configs/n112op/config_4.ini
+data/aircraft/configs/n223wx/
+data/aircraft/configs/n223wx/config_1.ini
+data/aircraft/configs/n223wx/config_3.ini
+data/aircraft/configs/n223wx/config_2.ini
+data/aircraft/configs/n223wx/config_5.ini
+data/aircraft/configs/n223wx/config_4.ini
+data/aircraft/battery_summary.txt
+[0;32m@Matt3720 [0m➜ [1;34m/workspaces/cis190_codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ ls
+[0m[01;31mbackup.tgz[0m  [34;42mdata[0m  [01;31mfinal_configs.tgz[0m  [01;31mfinal_logs.tgz[0m  final_typescript
+[0;32m@Matt3720 [0m➜ [1;34m/workspaces/cis190_codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ tar -tvf backup.tgz 
+drwxrwxrwx codespace/codespace 0 2024-08-12 04:39 data/
+drwxrwxrwx codespace/codespace 0 2024-08-12 04:55 data/aircraft/
+-rw-rw-rw- codespace/codespace 32900 2024-08-12 04:54 data/aircraft/gps_summary.txt
+drwxr-xr-x codespace/codespace     0 2024-07-29 21:59 data/aircraft/logs/
+-rw-r--r-- codespace/codespace  9830 2024-07-29 22:57 data/aircraft/logs/n101gh_telemetry.log
+-rw-r--r-- codespace/codespace  9742 2024-07-29 22:57 data/aircraft/logs/n123ab_telemetry.log
+-rw-r--r-- codespace/codespace  9801 2024-07-29 22:57 data/aircraft/logs/n456cd_telemetry.log
+-rw-r--r-- codespace/codespace  9801 2024-07-29 22:57 data/aircraft/logs/n223wx_telemetry.log
+-rw-r--r-- codespace/codespace  9803 2024-07-29 22:57 data/aircraft/logs/n678st_telemetry.log
+-rw-r--r-- codespace/codespace  9800 2024-07-29 22:57 data/aircraft/logs/n112op_telemetry.log
+-rw-r--r-- codespace/codespace  9828 2024-07-29 22:57 data/aircraft/logs/n890mn_telemetry.log
+-rw-r--r-- codespace/codespace  9829 2024-07-29 22:57 data/aircraft/logs/n234ij_telemetry.log
+-rw-r--r-- codespace/codespace  9801 2024-07-29 22:57 data/aircraft/logs/n567kl_telemetry.log
+-rw-r--r-- codespace/codespace  9803 2024-07-29 22:57 data/aircraft/logs/n789ef_telemetry.log
+drwxr-xr-x codespace/codespace     0 2024-07-05 17:51 data/aircraft/configs/
+drwxr-xr-x codespace/codespace     0 2024-07-17 16:58 data/aircraft/configs/n234ij/
+-rw-r--r-- codespace/codespace   799 2024-07-05 16:24 data/aircraft/configs/n234ij/config_1.ini
+-rw-r--r-- codespace/codespace   805 2024-07-05 16:24 data/aircraft/configs/n234ij/config_3.ini
+-rw-r--r-- codespace/codespace   810 2024-07-05 16:24 data/aircraft/configs/n234ij/config_2.ini
+-rw-r--r-- codespace/codespace   809 2024-07-05 16:24 data/aircraft/configs/n234ij/config_5.ini
+-rw-r--r-- codespace/codespace   798 2024-07-05 16:24 data/aircraft/configs/n234ij/config_4.ini
+drwxr-xr-x codespace/codespace     0 2024-07-17 16:58 data/aircraft/configs/n567kl/
+-rw-r--r-- codespace/codespace   813 2024-07-05 16:24 data/aircraft/configs/n567kl/config_1.ini
+-rw-r--r-- codespace/codespace   807 2024-07-05 16:24 data/aircraft/configs/n567kl/config_3.ini
+-rw-r--r-- codespace/codespace   799 2024-07-05 16:24 data/aircraft/configs/n567kl/config_2.ini
+-rw-r--r-- codespace/codespace   810 2024-07-05 16:24 data/aircraft/configs/n567kl/config_5.ini
+-rw-r--r-- codespace/codespace   806 2024-07-05 16:24 data/aircraft/configs/n567kl/config_4.ini
+-rw-r--r-- codespace/codespace   287 2024-07-05 17:51 data/aircraft/configs/tailnumbers.txt
+drwxr-xr-x codespace/codespace     0 2024-08-12 04:49 data/aircraft/configs/n123ab/
+-rw-r--r-- codespace/codespace   809 2024-08-12 04:44 data/aircraft/configs/n123ab/config_1.ini
+-rw-r--r-- codespace/codespace   809 2024-08-12 04:47 data/aircraft/configs/n123ab/config_3.ini
+-rw-r--r-- codespace/codespace   803 2024-08-12 04:46 data/aircraft/configs/n123ab/config_2.ini
+-rw-r--r-- codespace/codespace   808 2024-08-12 04:49 data/aircraft/configs/n123ab/config_5.ini
+-rw-r--r-- codespace/codespace   806 2024-08-12 04:48 data/aircraft/configs/n123ab/config_4.ini
+drwxr-xr-x codespace/codespace     0 2024-07-17 16:58 data/aircraft/configs/n101gh/
+-rw-r--r-- codespace/codespace   572 2024-07-05 14:43 data/aircraft/configs/n101gh/config_1a.ini
+-rw-r--r-- codespace/codespace   816 2024-07-05 16:24 data/aircraft/configs/n101gh/config_1.ini
+-rw-r--r-- codespace/codespace   801 2024-07-05 16:24 data/aircraft/configs/n101gh/config_3.ini
+-rw-r--r-- codespace/codespace   793 2024-07-05 16:24 data/aircraft/configs/n101gh/config_2.ini
+-rw-r--r-- codespace/codespace   808 2024-07-05 16:24 data/aircraft/configs/n101gh/config_5.ini
+-rw-r--r-- codespace/codespace   816 2024-07-05 16:24 data/aircraft/configs/n101gh/config_4.ini
+drwxr-xr-x codespace/codespace     0 2024-07-05 17:54 data/aircraft/configs/n456cd/
+-rw-r--r-- codespace/codespace   802 2024-07-05 16:24 data/aircraft/configs/n456cd/config_1.ini
+-rw-r--r-- codespace/codespace   814 2024-07-05 16:24 data/aircraft/configs/n456cd/config_3.ini
+-rw-r--r-- codespace/codespace   806 2024-07-05 16:24 data/aircraft/configs/n456cd/config_2.ini
+-rw-r--r-- codespace/codespace   811 2024-07-05 16:24 data/aircraft/configs/n456cd/config_5.ini
+-rw-r--r-- codespace/codespace   808 2024-07-05 16:24 data/aircraft/configs/n456cd/config_4.ini
+drwxr-xr-x codespace/codespace     0 2024-07-17 16:58 data/aircraft/configs/n890mn/
+-rw-r--r-- codespace/codespace   498 2024-07-05 16:24 data/aircraft/configs/n890mn/config_1.ini
+-rw-r--r-- codespace/codespace   803 2024-07-05 16:24 data/aircraft/configs/n890mn/config_3.ini
+-rw-r--r-- codespace/codespace   808 2024-07-05 16:24 data/aircraft/configs/n890mn/config_2.ini
+-rw-r--r-- codespace/codespace   807 2024-07-05 16:24 data/aircraft/configs/n890mn/config_5.ini
+-rw-r--r-- codespace/codespace   811 2024-07-05 16:24 data/aircraft/configs/n890mn/config_4.ini
+drwxr-xr-x codespace/codespace     0 2024-07-17 16:58 data/aircraft/configs/n678st/
+-rw-r--r-- codespace/codespace   809 2024-07-05 16:24 data/aircraft/configs/n678st/config_1.ini
+-rw-r--r-- codespace/codespace   816 2024-07-05 16:24 data/aircraft/configs/n678st/config_3.ini
+-rw-r--r-- codespace/codespace   814 2024-07-05 16:24 data/aircraft/configs/n678st/config_2.ini
+-rw-r--r-- codespace/codespace   806 2024-07-05 16:24 data/aircraft/configs/n678st/config_5.ini
+-rw-r--r-- codespace/codespace   819 2024-07-05 16:24 data/aircraft/configs/n678st/config_4.ini
+drwxr-xr-x codespace/codespace     0 2024-07-17 16:58 data/aircraft/configs/n789ef/
+-rw-r--r-- codespace/codespace   814 2024-07-05 16:24 data/aircraft/configs/n789ef/config_1.ini
+-rw-r--r-- codespace/codespace   810 2024-07-05 16:24 data/aircraft/configs/n789ef/config_3.ini
+-rw-r--r-- codespace/codespace   802 2024-07-05 16:24 data/aircraft/configs/n789ef/config_2.ini
+-rw-r--r-- codespace/codespace   817 2024-07-05 16:24 data/aircraft/configs/n789ef/config_5.ini
+-rw-r--r-- codespace/codespace   800 2024-07-05 16:24 data/aircraft/configs/n789ef/config_4.ini
+drwxr-xr-x codespace/codespace     0 2024-07-17 16:58 data/aircraft/configs/n112op/
+-rw-r--r-- codespace/codespace   814 2024-07-05 16:24 data/aircraft/configs/n112op/config_1.ini
+-rw-r--r-- codespace/codespace   806 2024-07-05 16:24 data/aircraft/configs/n112op/config_3.ini
+-rw-r--r-- codespace/codespace   806 2024-07-05 16:24 data/aircraft/configs/n112op/config_2.ini
+-rw-r--r-- codespace/codespace   815 2024-07-05 16:24 data/aircraft/configs/n112op/config_5.ini
+-rw-r--r-- codespace/codespace   813 2024-07-05 16:24 data/aircraft/configs/n112op/config_4.ini
+drwxr-xr-x codespace/codespace     0 2024-07-17 16:58 data/aircraft/configs/n223wx/
+-rw-r--r-- codespace/codespace   806 2024-07-05 16:24 data/aircraft/configs/n223wx/config_1.ini
+-rw-r--r-- codespace/codespace   807 2024-07-05 16:24 data/aircraft/configs/n223wx/config_3.ini
+-rw-r--r-- codespace/codespace   806 2024-07-05 16:26 data/aircraft/configs/n223wx/config_2.ini
+-rw-r--r-- codespace/codespace   813 2024-07-05 16:24 data/aircraft/configs/n223wx/config_5.ini
+-rw-r--r-- codespace/codespace   816 2024-07-05 16:24 data/aircraft/configs/n223wx/config_4.ini
+-rw-rw-rw- codespace/codespace 21300 2024-08-12 04:55 data/aircraft/battery_summary.txt
+[0;32m@Matt3720 [0m➜ [1;34m/workspaces/cis190_codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ touch backup[K[K[K[K[K[K[K[K[K[K[K[Kvi backup.sh
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;38r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[38;1H"backup.sh" [New File][2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[2;1H[94m~                                                                              [3;1H~                                                                              [4;1H~                                                                              [5;1H~                                                                              [6;1H~                                                                              [7;1H~                                                                              [8;1H~                                                                              [9;1H~                                                                              [10;1H~                                                                              [11;1H~                                                                              [12;1H~                                                                              [13;1H~                                                                              [14;1H~                                                                              [15;1H~                                                                              [16;1H~                                                                              [17;1H~                                                                              [18;1H~                                                                              [19;1H~                                                                              [20;1H~                                                                              [21;1H~                                                                              [22;1H~                                                                              [23;1H~                                                                              [24;1H~                                                                              [25;1H~                                                                              [26;1H~                                                                              [27;1H~                                                                              [28;1H~                                                                              [29;1H~                                                                              [30;1H~                                                                              [31;1H~                                                                              [32;1H~                                                                              [33;1H~                                                                              [34;1H~                                                                              [35;1H~                                                                              [36;1H~                                                                              [37;1H~                                                                              [m[38;62H0,0-1[9CAll[1;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12$p[?25l[38;52H/[1;1H[38;53He[1;1H[38;54Hd[1;1H[38;55He[1;1H[38;56Hd[1;1H[38;57H/[1;1H[38;58Hf[1;1H[38;59H3[1;1H[38;60Hf[1;1H[38;61H3[1;1H[38;52H          [1;1H[?25h[?25l[38;52H/[1;1H[38;53H0[1;1H[38;54H4[1;1H[38;55H0[1;1H[38;56H4[1;1H[38;57H/[1;1H[38;58H0[1;1H[38;59H9[1;1H[38;60H0[1;1H[38;61H9[1;1H[38;52H          [1;1H[27m[23m[29m[m[H[2J[2;1H[94m~                                                                              [3;1H~                                                                              [4;1H~                                                                              [5;1H~                                                                              [6;1H~                                                                              [7;1H~                                                                              [8;1H~                                                                              [9;1H~                                                                              [10;1H~                                                                              [11;1H~                                                                              [12;1H~                                                                              [13;1H~                                                                              [14;1H~                                                                              [15;1H~                                                                              [16;1H~                                                                              [17;1H~                                                                              [18;1H~                                                                              [19;1H~                                                                              [20;1H~                                                                              [21;1H~                                                                              [22;1H~                                                                              [23;1H~                                                                              [24;1H~                                                                              [25;1H~                                                                              [26;1H~                                                                              [27;1H~                                                                              [28;1H~                                                                              [29;1H~                                                                              [30;1H~                                                                              [31;1H~                                                                              [32;1H~                                                                              [33;1H~                                                                              [34;1H~                                                                              [35;1H~                                                                              [36;1H~                                                                              [37;1H~                                                                              [m[38;62H0,0-1[9CAll"backup.sh" [New File][1;1H[?25h[?25l[38;52Hi[1;1H[38;52H [1;1H[38;1H[1m-- INSERT --[m[38;13H[K[38;62H0,1[11CAll[1;1H[?25h[?25lt[38;62H1,2[1;2H[?25h[?25la[38;64H3[1;3H[?25h[?25lr[38;64H4[1;4H[?25h[?25l[38;64H5[1;5H[?25h[?25l-[38;64H6[1;6H[?25h[?25l[38;5;224m-t[m[38;64H7[1;7H[?25h[?25l[38;5;224mv[m[38;64H8[1;8H[?25h[?25l[38;5;224mf[m[38;64H9[1;9H[?25h[?25l[38;64H10[1;10H[?25h[?25lb[38;65H1[1;11H[?25h[?25la[38;65H2[1;12H[?25h[?25lc[38;65H3[1;13H[?25h[?25lk[38;65H4[1;14H[?25h[?25lu[38;65H5[1;15H[?25h[?25lp[38;65H6[1;16H[?25h[?25l.[38;65H7[1;17H[?25h[?25lt[38;65H8[1;18H[?25h[?25lg[38;65H9[1;19H[?25h[?25lz[38;64H20[1;20H[?25h[?25l:[38;65H1[1;21H[?25h[?25l[1;20H[K[38;65H0[1;20H[?25h[38;1H[K[1;19H[?25l[38;52H^[[1;19H[38;52H  [1;20H[38;62H1,19[10CAll[1;19H[?25h[?25l[38;52H:[1;19H[38;52H[K[38;1H:[?2004h[?25hwq[?25l[?2004l"backup.sh" [New] 1L, 20C written[23;2t[23;1t
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[0;32m@Matt3720 [0m➜ [1;34m/workspaces/cis190_codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ vi backup.shtar -tvf backup.tgz [A[0;32m@Matt3720 [0m➜ [1;34m/workspaces/cis190_codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ [6Pvi backup.sh
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kchmod =[K+x backup.sh [A
+[0;32m@Matt3720 [0m➜ [1;34m/workspaces/cis190_codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ ./s[Kbackup.sh
+drwxrwxrwx codespace/codespace 0 2024-08-12 04:39 data/
+drwxrwxrwx codespace/codespace 0 2024-08-12 04:55 data/aircraft/
+-rw-rw-rw- codespace/codespace 32900 2024-08-12 04:54 data/aircraft/gps_summary.txt
+drwxr-xr-x codespace/codespace     0 2024-07-29 21:59 data/aircraft/logs/
+-rw-r--r-- codespace/codespace  9830 2024-07-29 22:57 data/aircraft/logs/n101gh_telemetry.log
+-rw-r--r-- codespace/codespace  9742 2024-07-29 22:57 data/aircraft/logs/n123ab_telemetry.log
+-rw-r--r-- codespace/codespace  9801 2024-07-29 22:57 data/aircraft/logs/n456cd_telemetry.log
+-rw-r--r-- codespace/codespace  9801 2024-07-29 22:57 data/aircraft/logs/n223wx_telemetry.log
+-rw-r--r-- codespace/codespace  9803 2024-07-29 22:57 data/aircraft/logs/n678st_telemetry.log
+-rw-r--r-- codespace/codespace  9800 2024-07-29 22:57 data/aircraft/logs/n112op_telemetry.log
+-rw-r--r-- codespace/codespace  9828 2024-07-29 22:57 data/aircraft/logs/n890mn_telemetry.log
+-rw-r--r-- codespace/codespace  9829 2024-07-29 22:57 data/aircraft/logs/n234ij_telemetry.log
+-rw-r--r-- codespace/codespace  9801 2024-07-29 22:57 data/aircraft/logs/n567kl_telemetry.log
+-rw-r--r-- codespace/codespace  9803 2024-07-29 22:57 data/aircraft/logs/n789ef_telemetry.log
+drwxr-xr-x codespace/codespace     0 2024-07-05 17:51 data/aircraft/configs/
+drwxr-xr-x codespace/codespace     0 2024-07-17 16:58 data/aircraft/configs/n234ij/
+-rw-r--r-- codespace/codespace   799 2024-07-05 16:24 data/aircraft/configs/n234ij/config_1.ini
+-rw-r--r-- codespace/codespace   805 2024-07-05 16:24 data/aircraft/configs/n234ij/config_3.ini
+-rw-r--r-- codespace/codespace   810 2024-07-05 16:24 data/aircraft/configs/n234ij/config_2.ini
+-rw-r--r-- codespace/codespace   809 2024-07-05 16:24 data/aircraft/configs/n234ij/config_5.ini
+-rw-r--r-- codespace/codespace   798 2024-07-05 16:24 data/aircraft/configs/n234ij/config_4.ini
+drwxr-xr-x codespace/codespace     0 2024-07-17 16:58 data/aircraft/configs/n567kl/
+-rw-r--r-- codespace/codespace   813 2024-07-05 16:24 data/aircraft/configs/n567kl/config_1.ini
+-rw-r--r-- codespace/codespace   807 2024-07-05 16:24 data/aircraft/configs/n567kl/config_3.ini
+-rw-r--r-- codespace/codespace   799 2024-07-05 16:24 data/aircraft/configs/n567kl/config_2.ini
+-rw-r--r-- codespace/codespace   810 2024-07-05 16:24 data/aircraft/configs/n567kl/config_5.ini
+-rw-r--r-- codespace/codespace   806 2024-07-05 16:24 data/aircraft/configs/n567kl/config_4.ini
+-rw-r--r-- codespace/codespace   287 2024-07-05 17:51 data/aircraft/configs/tailnumbers.txt
+drwxr-xr-x codespace/codespace     0 2024-08-12 04:49 data/aircraft/configs/n123ab/
+-rw-r--r-- codespace/codespace   809 2024-08-12 04:44 data/aircraft/configs/n123ab/config_1.ini
+-rw-r--r-- codespace/codespace   809 2024-08-12 04:47 data/aircraft/configs/n123ab/config_3.ini
+-rw-r--r-- codespace/codespace   803 2024-08-12 04:46 data/aircraft/configs/n123ab/config_2.ini
+-rw-r--r-- codespace/codespace   808 2024-08-12 04:49 data/aircraft/configs/n123ab/config_5.ini
+-rw-r--r-- codespace/codespace   806 2024-08-12 04:48 data/aircraft/configs/n123ab/config_4.ini
+drwxr-xr-x codespace/codespace     0 2024-07-17 16:58 data/aircraft/configs/n101gh/
+-rw-r--r-- codespace/codespace   572 2024-07-05 14:43 data/aircraft/configs/n101gh/config_1a.ini
+-rw-r--r-- codespace/codespace   816 2024-07-05 16:24 data/aircraft/configs/n101gh/config_1.ini
+-rw-r--r-- codespace/codespace   801 2024-07-05 16:24 data/aircraft/configs/n101gh/config_3.ini
+-rw-r--r-- codespace/codespace   793 2024-07-05 16:24 data/aircraft/configs/n101gh/config_2.ini
+-rw-r--r-- codespace/codespace   808 2024-07-05 16:24 data/aircraft/configs/n101gh/config_5.ini
+-rw-r--r-- codespace/codespace   816 2024-07-05 16:24 data/aircraft/configs/n101gh/config_4.ini
+drwxr-xr-x codespace/codespace     0 2024-07-05 17:54 data/aircraft/configs/n456cd/
+-rw-r--r-- codespace/codespace   802 2024-07-05 16:24 data/aircraft/configs/n456cd/config_1.ini
+-rw-r--r-- codespace/codespace   814 2024-07-05 16:24 data/aircraft/configs/n456cd/config_3.ini
+-rw-r--r-- codespace/codespace   806 2024-07-05 16:24 data/aircraft/configs/n456cd/config_2.ini
+-rw-r--r-- codespace/codespace   811 2024-07-05 16:24 data/aircraft/configs/n456cd/config_5.ini
+-rw-r--r-- codespace/codespace   808 2024-07-05 16:24 data/aircraft/configs/n456cd/config_4.ini
+drwxr-xr-x codespace/codespace     0 2024-07-17 16:58 data/aircraft/configs/n890mn/
+-rw-r--r-- codespace/codespace   498 2024-07-05 16:24 data/aircraft/configs/n890mn/config_1.ini
+-rw-r--r-- codespace/codespace   803 2024-07-05 16:24 data/aircraft/configs/n890mn/config_3.ini
+-rw-r--r-- codespace/codespace   808 2024-07-05 16:24 data/aircraft/configs/n890mn/config_2.ini
+-rw-r--r-- codespace/codespace   807 2024-07-05 16:24 data/aircraft/configs/n890mn/config_5.ini
+-rw-r--r-- codespace/codespace   811 2024-07-05 16:24 data/aircraft/configs/n890mn/config_4.ini
+drwxr-xr-x codespace/codespace     0 2024-07-17 16:58 data/aircraft/configs/n678st/
+-rw-r--r-- codespace/codespace   809 2024-07-05 16:24 data/aircraft/configs/n678st/config_1.ini
+-rw-r--r-- codespace/codespace   816 2024-07-05 16:24 data/aircraft/configs/n678st/config_3.ini
+-rw-r--r-- codespace/codespace   814 2024-07-05 16:24 data/aircraft/configs/n678st/config_2.ini
+-rw-r--r-- codespace/codespace   806 2024-07-05 16:24 data/aircraft/configs/n678st/config_5.ini
+-rw-r--r-- codespace/codespace   819 2024-07-05 16:24 data/aircraft/configs/n678st/config_4.ini
+drwxr-xr-x codespace/codespace     0 2024-07-17 16:58 data/aircraft/configs/n789ef/
+-rw-r--r-- codespace/codespace   814 2024-07-05 16:24 data/aircraft/configs/n789ef/config_1.ini
+-rw-r--r-- codespace/codespace   810 2024-07-05 16:24 data/aircraft/configs/n789ef/config_3.ini
+-rw-r--r-- codespace/codespace   802 2024-07-05 16:24 data/aircraft/configs/n789ef/config_2.ini
+-rw-r--r-- codespace/codespace   817 2024-07-05 16:24 data/aircraft/configs/n789ef/config_5.ini
+-rw-r--r-- codespace/codespace   800 2024-07-05 16:24 data/aircraft/configs/n789ef/config_4.ini
+drwxr-xr-x codespace/codespace     0 2024-07-17 16:58 data/aircraft/configs/n112op/
+-rw-r--r-- codespace/codespace   814 2024-07-05 16:24 data/aircraft/configs/n112op/config_1.ini
+-rw-r--r-- codespace/codespace   806 2024-07-05 16:24 data/aircraft/configs/n112op/config_3.ini
+-rw-r--r-- codespace/codespace   806 2024-07-05 16:24 data/aircraft/configs/n112op/config_2.ini
+-rw-r--r-- codespace/codespace   815 2024-07-05 16:24 data/aircraft/configs/n112op/config_5.ini
+-rw-r--r-- codespace/codespace   813 2024-07-05 16:24 data/aircraft/configs/n112op/config_4.ini
+drwxr-xr-x codespace/codespace     0 2024-07-17 16:58 data/aircraft/configs/n223wx/
+-rw-r--r-- codespace/codespace   806 2024-07-05 16:24 data/aircraft/configs/n223wx/config_1.ini
+-rw-r--r-- codespace/codespace   807 2024-07-05 16:24 data/aircraft/configs/n223wx/config_3.ini
+-rw-r--r-- codespace/codespace   806 2024-07-05 16:26 data/aircraft/configs/n223wx/config_2.ini
+-rw-r--r-- codespace/codespace   813 2024-07-05 16:24 data/aircraft/configs/n223wx/config_5.ini
+-rw-r--r-- codespace/codespace   816 2024-07-05 16:24 data/aircraft/configs/n223wx/config_4.ini
+-rw-rw-rw- codespace/codespace 21300 2024-08-12 04:55 data/aircraft/battery_summary.txt
+[0;32m@Matt3720 [0m➜ [1;34m/workspaces/cis190_codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ mkdir backups | [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kls
+[0m[01;32mbackup.sh[0m   [34;42mdata[0m               [01;31mfinal_logs.tgz[0m
+[01;31mbackup.tgz[0m  [01;31mfinal_configs.tgz[0m  final_typescript
+[0;32m@Matt3720 [0m➜ [1;34m/workspaces/cis190_codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ mkdir backups | mv [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cv  backup.tgz backups
+[0;32m@Matt3720 [0m➜ [1;34m/workspaces/cis190_codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ ls
+[0m[01;32mbackup.sh[0m  [34;42mbackups[0m  [34;42mdata[0m  [01;31mfinal_configs.tgz[0m  [01;31mfinal_logs.tgz[0m  final_typescript
+[0;32m@Matt3720 [0m➜ [1;34m/workspaces/cis190_codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ ls backups
+[0m[01;31mbackup.tgz[0m
+[0;32m@Matt3720 [0m➜ [1;34m/workspaces/cis190_codespace/labs/final [0;36m([1;31mmain[0;36m) [0m$ exit
+exit
+
+Script done on 2024-08-12 05:00:45+00:00 [COMMAND_EXIT_CODE="0"]
